@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="img/Star 1.svg">
+        <title>Scroll Charette</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/vkp3rzp.css">
+        <style>
+            .text{
+               padding-top: 6rem;
+               display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            }
+@layer demo;
+@layer reading-indicator;
+
+
+@layer reading-indicator {
+  html {
+    position: relative;  
+  }
+  
+  .reading-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100vh);
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .reading-progress::before,
+  .reading-progress::after {
+    content: "";
+    top: 0;
+    left: -0.5%;
+    width: 101%;
+  }
+
+  .reading-progress::after {
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(to bottom left, #EFF8FF 50%, #fff0 50%);
+  }
+
+  .reading-progress::before {
+    position: fixed;
+    height: 10px;
+    background: #FD7EFF;
+  }
+}
+
+
+
+
+@layer demo {
+  html {
+    font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  
+  p:not(.name p) {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 60ch;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="name">
+            <p>advanced interactions sp25</p>
+            <p>marissa hart</p>
+        </div>
+        <div class="nav">
+            <a  href="index.html">1</a>
+            <a href="page-2.html">2</a>
+            <a href="page-3.html">3</a>
+            <a href="page-4.html">4</a>
+            <a href="page-5.html">5</a>
+            <a href="page-6.html">6</a>
+            <a href="page-7.html">7</a>
+            <a href="page-8.html">8</a>
+            <a href="page-9.html">9</a>
+            <a href="page-10.html">10</a>
+            <a href="page-11.html">11</a>
+            <a href="page-12.html">12</a>
+            <a href="page-13.html">13</a>
+            <a id="current-page" href="page-14.html">14</a>
+            <a href="page-15.html">15</a>
+            <a href="page-16.html">16</a>
+            <a href="page-17.html">17</a>
+            <a href="page-18.html">18</a>
+            <a href="page-19.html">19</a>
+            <a href="page-20.html">20</a>
+            <a href="page-21.html">21</a>
+            <a href="page-22.html">22</a>
+            <a href="page-23.html">23</a>
+            <a href="page-24.html">24</a>
+            <a href="page-25.html">25</a>
+        </div>
+        <div class="reading-progress"></div>
+
+<div class="text">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere urna nec tincidunt praesent semper feugiat nibh. Consectetur a erat nam at lectus urna duis. Aliquam purus sit amet luctus. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. Varius morbi enim nunc faucibus a. Eget lorem dolor sed viverra. Massa massa ultricies mi quis hendrerit dolor. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus.</p>
+
+<p>Viverra suspendisse potenti nullam ac tortor vitae purus. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Quam pellentesque nec nam aliquam sem. Neque ornare aenean euismod elementum. At quis risus sed vulputate odio. Euismod lacinia at quis risus sed vulputate odio ut. Mattis vulputate enim nulla aliquet. Quisque sagittis purus sit amet volutpat. Auctor urna nunc id cursus metus aliquam eleifend mi. Fusce id velit ut tortor pretium viverra suspendisse. Duis ut diam quam nulla porttitor massa. Sit amet tellus cras adipiscing enim eu turpis egestas. Cras sed felis eget velit aliquet sagittis. Libero enim sed faucibus turpis in eu. Est lorem ipsum dolor sit amet. Turpis egestas maecenas pharetra convallis posuere morbi leo. Ut tellus elementum sagittis vitae et leo duis.</p>
+
+<p>Porta lorem mollis aliquam ut porttitor leo a. Sed faucibus turpis in eu mi bibendum neque egestas. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Eget sit amet tellus cras adipiscing enim. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Leo vel orci porta non pulvinar neque laoreet suspendisse. Et egestas quis ipsum suspendisse ultrices gravida dictum. Lectus arcu bibendum at varius vel. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Egestas dui id ornare arcu odio ut sem nulla.</p>
+
+<p>Eget aliquet nibh praesent tristique magna sit amet purus. Volutpat odio facilisis mauris sit. Viverra suspendisse potenti nullam ac. Ut ornare lectus sit amet est placerat in egestas. Dolor magna eget est lorem ipsum dolor sit. Iaculis urna id volutpat lacus. Mi tempus imperdiet nulla malesuada pellentesque. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Quis commodo odio aenean sed. Sed cras ornare arcu dui vivamus arcu felis bibendum. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Id volutpat lacus laoreet non curabitur gravida arcu.</p>
+
+<p>Arcu vitae elementum curabitur vitae nunc sed. Egestas diam in arcu cursus. Egestas pretium aenean pharetra magna ac placerat vestibulum. Massa tincidunt dui ut ornare lectus sit amet est placerat. Pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam. Dictum at tempor commodo ullamcorper a. Praesent semper feugiat nibh sed pulvinar. Porttitor lacus luctus accumsan tortor. Iaculis nunc sed augue lacus viverra. Sed cras ornare arcu dui vivamus arcu. Nunc pulvinar sapien et ligula ullamcorper malesuada. Potenti nullam ac tortor vitae purus. Et netus et malesuada fames. Volutpat sed cras ornare arcu.</p>
+
+<p>In fermentum posuere urna nec tincidunt. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Proin sed libero enim sed faucibus turpis in eu. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Senectus et netus et malesuada fames ac. Non nisi est sit amet facilisis. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Blandit aliquam etiam erat velit scelerisque in dictum non. At varius vel pharetra vel turpis. Amet consectetur adipiscing elit duis tristique sollicitudin nibh.</p>
+
+<p>Neque convallis a cras semper auctor neque vitae tempus quam. Adipiscing bibendum est ultricies integer quis auctor elit sed. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Egestas diam in arcu cursus euismod. Imperdiet massa tincidunt nunc pulvinar sapien et ligula. Quis auctor elit sed vulputate mi sit amet. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. At tellus at urna condimentum mattis pellentesque. Nec dui nunc mattis enim ut. Aliquet lectus proin nibh nisl condimentum id.</p>
+
+<p>Vel pretium lectus quam id leo in vitae turpis. Venenatis cras sed felis eget velit aliquet sagittis. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Pellentesque habitant morbi tristique senectus et. Etiam sit amet nisl purus in mollis nunc sed id. Nascetur ridiculus mus mauris vitae ultricies leo. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Volutpat maecenas volutpat blandit aliquam etiam erat velit. Lectus sit amet est placerat in. Imperdiet proin fermentum leo vel orci porta. Platea dictumst quisque sagittis purus sit amet volutpat. Diam maecenas ultricies mi eget mauris pharetra et. Sagittis purus sit amet volutpat consequat. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Duis at consectetur lorem donec massa sapien faucibus et molestie. Quis commodo odio aenean sed adipiscing.</p>
+
+<p>Vitae nunc sed velit dignissim sodales ut eu sem integer. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Leo vel fringilla est ullamcorper eget. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Sit amet risus nullam eget felis eget nunc. Vulputate dignissim suspendisse in est ante. Sagittis nisl rhoncus mattis rhoncus urna. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Consequat nisl vel pretium lectus quam id leo in vitae. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Varius duis at consectetur lorem donec. Tristique senectus et netus et malesuada fames ac turpis. Placerat in egestas erat imperdiet. A iaculis at erat pellentesque adipiscing commodo. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. Est placerat in egestas erat imperdiet sed euismod.</p>
+
+<p>Blandit volutpat maecenas volutpat blandit aliquam. Habitant morbi tristique senectus et netus et malesuada fames. Justo nec ultrices dui sapien. Et tortor at risus viverra adipiscing at. Auctor augue mauris augue neque gravida in fermentum. Scelerisque purus semper eget duis at tellus at urna. Maecenas volutpat blandit aliquam etiam erat velit. Volutpat diam ut venenatis tellus in metus. Convallis aenean et tortor at risus. Blandit aliquam etiam erat velit scelerisque in. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Id leo in vitae turpis. Mauris pharetra et ultrices neque ornare aenean euismod elementum. Ullamcorper eget nulla facilisi etiam dignissim diam quis.</p>
+</div>
+
+    </body>
+</html>
